@@ -302,3 +302,19 @@
     width:  28%;
   }
 }
+
+
+/* shop page */
+#page2{
+  background-image: url(images/main.webp);
+  background-size: cover;
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 105px;
+}
+#page2 p, #page2 h2{
+  padding-left: 14px;
+  padding-bottom: -14px;
+  color: white;
+}
