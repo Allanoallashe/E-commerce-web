@@ -61,3 +61,24 @@ button.new{
   outline: none;
   transition: 0.2s;
 }
+
+#prodetails{
+  display: flex;
+  margin-top:75px;
+}
+#prodetails .spro-img{
+  width: 40%;
+  margin-right: 50px;
+}
+.small-img-grp{
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-row{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+#prodetails .spro-details{
+  width: 50%;
+  padding-top: 50px;
+}
