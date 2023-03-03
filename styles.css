@@ -82,3 +82,30 @@ button.new{
   width: 50%;
   padding-top: 50px;
 }
+#prodetails .spro-details h4{
+  padding: 40px 0 20px 0;
+}
+#prodetails .spro-details h2{
+  font-size: 26px;
+}
+#prodetails .spro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#prodetails .spro-details input{
+  width: 50px;
+  height: 47px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+#prodetails .spro-details button{
+  background-color: #088178;
+  color: #fff;
+}
+#prodetails .spro-details input{
+  outline: none;
+}
+#prodetails .spro-details span{
+  line-height: 25px;
+}
