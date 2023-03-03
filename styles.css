@@ -69,8 +69,11 @@ button.new{
 #prodetails .spro-img{
   width: 40%;
   margin-right: 50px;
+  border-radius: 4px;
 }
 .small-img-grp{
+  margin-top: 10px;
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
