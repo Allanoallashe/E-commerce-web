@@ -45,20 +45,20 @@
 
 <section id="prodetails" class="section-p1">
   <div class="spro-img">
-    <img src="images/img20.gif" width="100%" id="MainImg" alt="/">
+    <img src="images/img1.webp" width="100%" id="MainImg" alt="">
   
     <div class="small-img-grp">
       <div class="small-img-row">
-        <img src="images/img13.webp" width="100%" class="small-img" alt="/">
+        <img src="images/img13.webp" width="100%" class="small-img" alt="">
       </div>
       <div class="small-img-row">
-        <img src="images/img14.webp" width="100%" class="small-img" alt="/">
+        <img src="images/img14.webp" width="100%" class="small-img" alt="">
       </div>
       <div class="small-img-row">
-        <img src="images/img15.jfif" width="100%" class="small-img" alt="/">
+        <img src="images/img15.jfif" width="100%" class="small-img" alt="">
       </div>
       <div class="small-img-row">
-        <img src="images/img16.webp" width="100%" class="small-img" alt="/">
+        <img src="images/img16.webp" width="100%" class="small-img" alt="">
       </div>
     </div>
 </div>
@@ -66,7 +66,7 @@
   <h6>Home / T-shirts</h6>
   <h4>Mens Fashion T Shirts</h4>
   <h2>$400.00</h2>
-  <select name="" id="">
+  <select name="/" id="">
     <option value="">Select Size</option>
     <option value="">XL</option>
     <option value="">XXL</option>
@@ -218,11 +218,20 @@
 
   <script>
 
-    const MainImg = document.getElementById('MainImg');
-    const smallimg = document.getElementsByClassName('small-img');
+    var mainImg = document.getElementById("MainImg");
+    var smallImg = document.getElementsByClassName("small-img");
 
-    smallimg[0].onClick = function(){
-      MainImg.src = smallimg[0].src;
+    smallImg[0].onClick = function (){
+      mainImg.src = smallImg[0].src;
+    }
+    smallImg[1].onClick = function(){
+      mainImg.src = smallImg[1].src;
+    }
+    smallImg[2].onClick = function(){
+      mainImg.src = smallImg[2].src;
+    }
+    smallImg[3].onClick = function(){
+      mainImg.src = smallImg[3].src;
     }
 
   </script>
