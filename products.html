@@ -215,6 +215,18 @@
   <div class="copyright">
     <p>@allashe.com 2023 - HTML CSS Ecommerce Template</p>
   </div>
+
+  <script>
+
+    const MainImg = document.getElementById('MainImg');
+    const smallimg = document.getElementsByClassName('small-img');
+
+    smallimg[0].onClick = function(){
+      MainImg.src = smallimg[0].src;
+    }
+
+  </script>
+
   <script src="app.js"></script>
 </body>
 </html>
