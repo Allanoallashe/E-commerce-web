@@ -1,7 +1,7 @@
 
-const bar = document.getElementById('bar');
-const close = document.getElementById('close');
-const nav = document.getElementById('navbar');
+var bar = document.getElementById('bar');
+var close = document.getElementById('close');
+var nav = document.getElementById('navbar');
 
 if (bar) {
   bar.addEventListener('click', () => {
@@ -13,3 +13,21 @@ if (close) {
     close.classList.remove('active');
   })
 }
+
+
+
+    var mainImg = document.getElementById("MainImg");
+    var smallImg = document.getElementsByClassName('small-img');
+
+    smallImg[0].addEventListener('click', () => {
+      mainImg.src = smallImg[0].src;
+    })
+    smallImg[1].addEventListener('click', () => {
+      mainImg.src = smallImg[1].src;
+    })
+    smallImg[2].addEventListener('click', () => {
+      mainImg.src = smallImg[2].src;
+    })
+    smallImg[3].addEventListener('click', () => {
+      mainImg.src = smallImg[3].src;
+    })
